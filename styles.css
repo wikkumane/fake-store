@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* navbar */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100vw;
+    background-color: #f0f0fa
+}
+
+.store-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-bar-items-div{
+    width: 40vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.nav-bar-items {
+    margin: 0.5rem;
+    padding: 0.5rem;
+   width: 30vw;
+   text-decoration: none;
+   color: #1a202c;
+   text-align: center;
+}
+
+.nav-bar-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar-search-input {
+    padding: 0.5rem;
+    margin: auto 3rem;
+    border-radius: 25px;
+    height: auto;
+    border: 1px solid #1a202c;
+    
+}
+
+input::placeholder {
+    padding: 0.5rem;
+}
+
+.btn-search {
+    position: absolute;
+    width: 1.3rem;
+    height: 1.3rem;
+    right: 60px;
+    background: transparent;
+    border: none;
+}
+
+svg {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+/* nav end */
+
+
+/* backround */
+
+
+
+.template {
+    position: relative;
+    background-color: rgba(26, 32, 44, 0.527);
+    background-image:url('341801-Gigi-Hadid-American-Model-Celebrity-Girls-Women-Fashion-Model-Photoshoot-Photo-Shoot.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    transform: scale(1,1);
+}
+
+.text-template {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    font-size: 12rem;
+    padding: 20rem;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(206, 206, 206, 0.5) );
+}
+
+/* bg end */
+
+/* main cards */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+    background-color: #f0f0fa;
+    margin: 10rem auto ;    
+}
+
+.main-cards {
+    margin-left: 20rem;
+    width: 30rem;
+    height: 60rem;
+    background-color: #48567418;
+}
+
+.photo img {
+    width: 30rem;
+    height: 35rem;
+}
+
+
+.category {
+    font-size: 1rem;
+    text-align: center;
+    width: 30rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    width: 30rem;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.price {
+    margin: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rating {
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* side bar */
+
+.categories {
+    margin: 3rem;
+    width: 100vw;
+    height: 10rem ;
+}
+
+.categories-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10rem ;
+}
+
+.categories-tab-links{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: #e0e1ed  ;
+    width: 100vw;
+    height: 10rem;
+    text-align: center;
+}
+
+.footer > p {
+    position: sticky;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 5rem;
+}
